@@ -10,6 +10,9 @@ plugins:
   - name: tap-facebook
     variant: matatika
     pip_url: git+https://github.com/Matatika/tap-facebook.git
+  - name: tap-govuk-weekly-road-fuel-prices
+    variant: matatika
+    pip_url: git+https://github.com/Matatika/tap-spreadsheets-anywhere@v0.2.0
   loaders:
   - name: target-postgres
     variant: matatika
